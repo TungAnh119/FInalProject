@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;500;700&family=Wix+Madefor+Display:wght@400;500;700&display=swap');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/search.css');
+* {
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif,
+
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 400;
+    color: #161616;
+    line-height: 1.5;
+
+
+}
+.btn_search{
+    margin-right: 16px;
+    display:inline-block ;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: -webkit-link;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: all .25s linear;
+    background-color: #ffff;
+    padding: 0px;
+    border-bottom: 1px solid 226, 232, 240;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .1);
+    height: 70px;
+    padding: 0;
+    position: sticky
+}
+
+.container_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_social {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.item {
+    margin: 10px;
+    align-items: center;
+    height: 32px;
+}
+
+.shop {
+    text-decoration: none;
+    color: #92400e;
+    background-color: #fff7ed;
+    border-radius: 102px;
+    font-size: 12px;
+    padding: 4px 10px;
+    font-weight: 500;
+    align-items: center;
+
+
+}
+.spider-shop{
+    color: #92400e;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.container_left {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-search{
+    background-color: transparent;
+}
+
+.left_item_1 {
+    margin-right: 16px;
+    color: #161616;
+}
+
+.left_item_2 {
+    padding: 12px 16px;
+    background-color: #3398D4;
+    color: #fff7ed;
+    border-radius: 50px;
+    
+}
+.baner_homepage_container_header {
+    background-image: url(https://spiderum.com/banner.78f477df5d7c7b697e99.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 515px;
+    height: 55vh;
+
+}
+
+.baner-content {
+    position: absolute;
+    display: block;
+    top: 125px;
+    left: 180px;
+
+}
+
+.slogan {
+    background: linear-gradient(90deg, #262443 0, #2a99d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 56px;
+    width: 601px;
+    line-height: 60px;
+
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.baner_homepage_container_detail {
+    color: #161616;
+    font-size: 30px;
+    font-family: roboto;
+    margin-bottom: 24px;
+}
+.btn {
+    color: #161616;
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    border: 1px solid #161616;
+    padding: 9px 50px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+}
+.btn:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff7ed;
+    z-index: -1;
+    transition: width 1s ease-in;
+}
+.btn:hover:before{
+    width: 100%;
+}
+
+#card_homepage_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 20px;
+
+}
+
+.card_homepage_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    row-gap: 0.5rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem
+}
+
+.homepage_container_midle {
+    padding: 0px 160px;
+    margin-bottom: 30px;
+}
+
+.thumbnail {
+    width: 208px;
+    height: 141px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    border-radius: 3px;
+    
+}
+.baner_advertisement{
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+.classify_content{
+    display: flex;
+}
+.category{
+    color: #161616;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+.created_at{
+    font-size: 15px;
+    color: #909399;
+    font-weight: 400;
+    
+}
+.title_content{
+    font-weight: 700;
+    color: #161616;
+    
+
+}
+.card-content{
+    font-size: smaller;
+    color: #161616;
+    
+}
+.post-details{
+    display: flex;
+}
+
+.avatar{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+.one{
+    margin-top: 45px;
+}
+.two{
+    margin-top: 20px;
+}
+.three{
+    margin-top: 20px;
+}
+.four{
+    margin-top: 45px;
+}
+

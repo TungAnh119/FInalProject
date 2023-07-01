@@ -327,6 +327,8 @@ h1 {
 }
 .card-video{
    margin-left: 20px; 
+   display: flex;
+   flex-direction: column;
 }
 .video-content p {
     font-weight: 700;

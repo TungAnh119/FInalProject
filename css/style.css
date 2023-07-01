@@ -45,6 +45,7 @@ body {
     height: 25px;
     border: none;
     outline: none;
+    background-color: #ffff;
     
 }
 .search-box:hover{
@@ -132,6 +133,9 @@ a {
     color: #fff7ed;
     border-radius: 50px;
     
+}
+.left_item_2:hover{
+    background-color: #11c5e1; ;
 }
 .baner_homepage_container_header {
     background-image: url(https://spiderum.com/banner.78f477df5d7c7b697e99.png);
@@ -352,4 +356,3 @@ h1 {
     color: #909399;
     font-weight: 400;
 }
-   

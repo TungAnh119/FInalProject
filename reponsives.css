@@ -35,6 +35,15 @@
     .db-std{
         width: 100%;
     }
+
+
+    .header_container1{
+        flex-direction: column;
+    }
+    .header_container{
+        width: 100%;
+        height: 150px;
+    }
   }
   
   @media screen and (max-width: 767px) {
@@ -73,6 +82,13 @@
     }
     .imgbox2{
         height: 100%;
+    }
+    .header_container1{
+        flex-direction: column;
+    }
+    .header_container{
+        width: 100%;
+        height: 150px;
     }
   }
   
@@ -113,5 +129,11 @@
     .imgbox2{
         height: 100%;
     }
-    
+    .header_container1{
+        flex-direction: column;
+    }
+    .header_container{
+        width: 100%;
+        height: 150px;
+    }
  }

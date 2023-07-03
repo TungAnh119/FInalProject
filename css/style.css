@@ -74,9 +74,6 @@ a {
 }
 
 .header_container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -85,9 +82,29 @@ a {
     padding: 0px;
     border-bottom: 1px solid 226, 232, 240;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, .1);
-    height: 70px;
+    height: auto;
     padding: 0;
-    position: sticky
+    position: sticky;
+    ::before{
+        display: none;
+    }
+}
+.header_container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: all .25s linear;
+    background-color: #ffff;
+    padding: 0px;
+    padding: 0;
+    position: sticky;
+    ::before{
+        display: none;
+    }
 }
 
 .container_right {
